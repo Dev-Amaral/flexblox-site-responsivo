@@ -5,13 +5,11 @@
 
 
 .geral{
-    background-color: aqua;
-    height: 900px;
+    height: 900px;   
 }
 
 .container{
     width: 900px;
-    background-color: aquamarine;
 }
 
 section{
@@ -19,40 +17,120 @@ section{
     justify-content: center;
 }
 
+.meu-menu{
+    background-color: black;
+}
+
 .menu{
     display: flex;
     justify-content: center;
     width: 900px;
     height: 70px;
-
 }
 
 .menu-left{
     display: flex;
-    background-color: bisque;
     flex: 2;
 }
 
 .menu-right{
     display: flex;
-    background-color: burlywood;
     flex: 1;
+    justify-content: flex-end  ;
+    align-items: center;
+    /* alinhar itens coloca no meio */
 }
 
 .logo{
-    background-color: red;
+    background-image: url(../img/astronauta.png);
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: 100px;
     border-radius: 100px;
     width: 70px;
     height: 70px;
     margin: 1px;
 }
 
-.banner{
+.link{
     display: flex;
-    background-color: cadetblue;
-    height: 200px;
+    align-items: center;
+    margin: 10px;
 }
 
-.link{
+.links, a{
+    text-decoration: none;
+    margin: 7px;
+    font-weight: bold;
+    color: rgb(117, 119, 121);
+    font-family: "Open Sans", sans-serif;
+}
+
+
+
+/* cursor do mouse em cima o link */
+a:hover { 
+    color: chocolate;
+    letter-spacing: 2px;
     
+}
+
+.banner{
+    background-image: url(../img/espaco.jpg);
+    background-size: 1980px;
+    background-repeat: no-repeat;
+    display: flex;
+    background-size: cover;
+    /* cover faz com que preencha tudpp */
+    background-attachment: fixed;
+    background-position: center;
+    height: 650px;
+    
+}
+
+.news{
+    display: flex;
+    height: 200px;
+    /* width: 100vw; */
+    /* justify-content: center; */
+    align-items: center;
+
+}
+
+.news-left{
+    flex: 2;
+    /* background-color: bisque; */
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-size: 10px;
+    font-weight: bold;
+    
+}
+
+
+.news-right{
+    flex: 1;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+}
+
+
+.titulo{
+    background-color: greenyellow;
+}
+
+.eventos{
+    display: flex;
+    width: 900px;
+    height: 200px;
+}
+.eventos-1, .eventos-2, .eventos-3{
+    flex: 1;
+    background-color: darkseagreen;
+    margin: 10px;
+}
+
+footer{
+    background-color: green;
 }
