@@ -115,13 +115,14 @@ a:hover {
 
 .eventos{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     background-repeat: no-repeat;
     /* background-position: 50%; */
     width: 900px;
     height: 200px;
     margin-top: 3%;
-    padding-left: 30%;
+    /* padding-left: 30%; */
+    margin-left: 500px;
 }
 .eventos-1, .eventos-2, .eventos-3{
     flex: 1;
